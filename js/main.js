@@ -1,0 +1,10 @@
+require.config({
+	shim:{
+		hello:{
+			exports:'hello'
+		}
+	}
+});
+require(['hello'],function(hello){
+	hello();
+});
